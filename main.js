@@ -129,16 +129,79 @@
 // console.log(counter ());
 // console.log(counter ());
 
-function sumFunc(a,b){
-    return a+b;
-}
-const sumFunc2 = (a,b) => a+b;
-const double = x => x*2;
-const sumFunc3 = (a,b) => a+b;
-const sayGreeting = ()=> console.log("Hello");
-const square = x => x*x;
+// function sumFunc(a,b){
+//     return a+b;
+// }
+// const sumFunc2 = (a,b) => a+b;
+// const double = x => x*2;
+// const sumFunc3 = (a,b) => a+b;
+// const sayGreeting = ()=> console.log("Hello");
+// const square = x => x*x;
 
-const calculate = (a,b) => {
-    let result = a +b;
-    return result *2;
-};
+// const calculate = (a,b) => {
+//     let result = a +b;
+//     return result *2;
+// };
+
+// let numbersArr = [1,2,3,4,5];
+// console.log(numbersArr);
+
+// console.log(numbersArr[0]);
+// console.log(numbersArr[1]);
+
+
+// let colors = ["Красный", "Зеленый", "Синий"];
+// console.log("Первый элемент:", colors[0]); 
+// console.log("Последний элемент:", colors[colors.length - 1]);
+// colors[1] = "Желтый"; 
+// console.log("Измененный массив:", colors);
+
+// numberArr.push(10);
+// console.log(numberArr);
+
+// numberArr.pop();
+// console.log(numbersArr);
+
+
+// let students = [];
+// students.push("Иванов");
+// students.push("Петров");
+// students.push("Сидоров");
+// console.log("Массив после добавления:", students);
+// students.pop(); 
+// console.log("Итоговый массив:", students);
+
+// let number2 = [10,20,30];
+// for (let i =0; i< number2.length; i++){
+//     console.log(number2[i]);
+// }
+
+// for (let value of number2){
+//     console.log(value);
+// }
+
+// let mixedArray = [1,"text",true,3.14];
+// console.log(mixedArray);
+
+// console.log(numbersArr.includes(1));
+// console.log(numbersArr.indexOf(2));
+
+// console.log(fruits.includes("Яблоко"));
+// console.log(fruits.includes("Манго"));
+
+let cities = ["Москва", "Санкт-Петербург", "Казань", "Новосибирск", "Екатеринбург"];
+let searchCity = "Казань";
+if (cities.includes(searchCity)) {
+    let index = cities.indexOf(searchCity);
+    console.log(`Город "${searchCity}" найден! Индекс: ${index}`);
+} else {
+    console.log(`Город "${searchCity}" не найден в списке.`);
+}
+let searchCity2 = "Сочи";
+if (cities.includes(searchCity2)) {
+    let index = cities.indexOf(searchCity2);
+    console.log(`Город "${searchCity2}" найден! Индекс: ${index}`);
+} else {
+    console.log(`Город "${searchCity2}" не найден в списке.`);
+}
+console.log("Список городов:", cities);
