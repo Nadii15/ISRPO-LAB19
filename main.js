@@ -59,17 +59,86 @@
 //     console.log(i);
 // }
 
-for (let i =1; i <= 3; i++ ){
-    for (let j = 1; j <= 3; j++){
-        console.log(`i = ${i}, j = $${j}`);
-    }
-}
+// for (let i =1; i <= 3; i++ ){
+//     for (let j = 1; j <= 3; j++){
+//         console.log(`i = ${i}, j = $${j}`);
+//     }
+// }
 
 
-for (let i = 1; i <= 4; i++) {
-    let line = ""; 
-    for (let j = 1; j <= i; j++) {
-        line += "*";
-    }
-    console.log(line);
+// for (let i = 1; i <= 4; i++) {
+//     let line = ""; 
+//     for (let j = 1; j <= i; j++) {
+//         line += "*";
+//     }
+//     console.log(line);
+// }
+
+// function sum(a,b){
+//     return a+b;
+// }
+// console.log(sum(3,5));
+
+// function multiply(a, b) {
+//     return a * b;
+// }
+
+// let result = multiply(4, 5); 
+// console.log("Результат умножения:", result);
+// console.log("10 * 20 =", multiply(10, 20));
+
+
+// function sayHello(name){
+//     console.log(`Hello, ${name}`);
+// }
+// sayHello("Тимофей");
+
+// function printInfo(name,age){
+//     console.log(`Hello, ${name},${age}`);
+// }
+// printInfo("Тимофей" , "25");
+
+// function greet(name = "Гость"){
+//     console.log("ПРивет," + name);
+// }
+// greet();
+// greet("Анастасия");
+
+
+// function calculateDiscount(price, discountPercent = 10) { 
+//     const discountAmount = price * (discountPercent / 100);
+//     return price - discountAmount;
+// }
+// let finalPrice1 = calculateDiscount(1000, 20);
+// console.log(`Цена 1000 со скидкой 20%: ${finalPrice1}`); 
+
+// const add = function(a,b) {
+//     return a+ b;
+// };
+// console.log(add(2,3));
+
+// function makeCounter(){
+//     let count = 0;
+//     return function (){
+//         count++;
+//         return count;
+//     };
+// }
+// const counter = makeCounter();
+// console.log(counter ());
+// console.log(counter ());
+// console.log(counter ());
+
+function sumFunc(a,b){
+    return a+b;
 }
+const sumFunc2 = (a,b) => a+b;
+const double = x => x*2;
+const sumFunc3 = (a,b) => a+b;
+const sayGreeting = ()=> console.log("Hello");
+const square = x => x*x;
+
+const calculate = (a,b) => {
+    let result = a +b;
+    return result *2;
+};
